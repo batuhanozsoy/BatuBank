@@ -10,7 +10,7 @@ namespace BatuBankClassLibary.Controller
 {
     public class UserRoleController : BaseBusiness<UserRoleController>
     {
-        public List<UserRole> GetAllUsers()
+        public List<UserRole> GetAllUserRoles()
         {
             try
             {

@@ -10,7 +10,7 @@ namespace BatuBankClassLibary.Controller
 {
     public class TransactionTypeController : BaseBusiness<TransactionTypeController>
     {
-        public List<TransactionType> GetAllUsers()
+        public List<TransactionType> GetAllTransactionTypes()
         {
             try
             {

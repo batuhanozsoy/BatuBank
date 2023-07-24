@@ -10,7 +10,7 @@ namespace BatuBankClassLibary.Controller
 {
     public class ProductController : BaseBusiness<ProductController>
     {
-        public List<Product> GetAllUsers()
+        public List<Product> GetAllProducts()
         {
             try
             {

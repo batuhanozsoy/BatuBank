@@ -12,7 +12,7 @@ namespace BatuBankClassLibary.Controller
 {
     public class UserAccountController : BaseBusiness<UserAccountController>
     {
-        public List<UserAccount> GetAllUsers() //Bütün kullanıcıların hesaplarının getirildiği fonksiyon.
+        public List<UserAccount> GetAllUserAccounts() //Bütün kullanıcıların hesaplarının getirildiği fonksiyon.
         {
             try
             {
@@ -27,6 +27,7 @@ namespace BatuBankClassLibary.Controller
                 throw;
             }
         }
+
         public UserAccount AddNewUserAccount(int _userId, int _accountTypeId) //Yeni hesap açıp kullanıcıya atayan fonksiyon.
         {
             try
@@ -336,8 +337,6 @@ namespace BatuBankClassLibary.Controller
                 throw;
             }
         }
-
-
 
         public string CreateIban(int _length) // IBAN oluşturan fonksiyon.
         {

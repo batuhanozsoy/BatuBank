@@ -10,7 +10,7 @@ namespace BatuBankClassLibary.Controller
 {
     public class CreditCardTypeController : BaseBusiness<CreditCardTypeController>
     {
-        public List<CreditCardType> GetAllUsers()
+        public List<CreditCardType> GetAllCreditCardTypes()
         {
             try
             {
